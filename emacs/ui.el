@@ -78,7 +78,7 @@
       ;; (custom-set-variables
       ;;  '(initial-frame-alist (quote ((fullscreen . maximized)))))
       )
-(add-to-list 'default-frame-alist '(height . 100))
+;; (add-to-list 'default-frame-alist '(height . 100))
 (add-to-list 'default-frame-alist '(width . 120))
 
 ;; Default auto fill column
