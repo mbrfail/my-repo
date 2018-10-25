@@ -4,6 +4,8 @@ This repo stores my common settings of tools.
 
 ## Emacs
 
+To install ensime for Emacs support, refer to http://ensime.github.io/editors/emacs/install/. Specifically, you need to setup MELPA following http://ensime.github.io/editors/emacs/learning/. 
+
 ## Bash
 
 ## Zsh
