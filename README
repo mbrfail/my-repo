@@ -1,10 +1,18 @@
 # README
 
-This repo stores my common settings of tools.
+# This repo stores my common settings of tools.
 
 ## Emacs
 
-To install ensime for Emacs support, refer to http://ensime.github.io/editors/emacs/install/. Specifically, you need to setup MELPA following http://ensime.github.io/editors/emacs/learning/. 
+To install ensime for Emacs support, refer to
+http://ensime.github.io/editors/emacs/install/. Specifically, you need to setup
+MELPA following http://ensime.github.io/editors/emacs/learning/.
+
+To install ensime for sbt, follow http://ensime.github.io/build_tools/sbt/. This
+allows sbt to build .ensime for your project.
+
+Once .ensime is created for the project, you can start emacs, and 'M-x ensime'
+to start/connect to the server.
 
 ## Bash
 
