@@ -24,3 +24,19 @@
 
 ;; Add sbt
 (add-to-list 'exec-path "/usr/local/bin")
+
+;; dirtree
+(add-to-list 'load-path "~/.emacs.d/elpa/dirtree-20140129.832")
+(autoload 'dirtree "dirtree" "Add directory to tree view" t)
+
+;; ace-jump
+(autoload
+  'ace-jump-mode
+  "ace-jump-mode"
+  "Emacs quick move minor mode" t)
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+
+(defun my-shell-hook ()
+  (define-key shell-mode-map (kbd "C-c SPC") 'ace-jump-mode))
+
+(add-hook 'shell-mode-hook 'my-shell-hook)

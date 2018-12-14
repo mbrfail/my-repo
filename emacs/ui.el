@@ -34,6 +34,8 @@
  ;; Emacs’s sentence detection, by default, expects sentences to end with
  ;; terminal punctuation followed by two spaces or a new line.
  sentence-end-double-space nil
+
+ fill-column 80
 )
 
 ;; ------- buffer local variables ------
@@ -80,9 +82,6 @@
       )
 ;; (add-to-list 'default-frame-alist '(height . 100))
 (add-to-list 'default-frame-alist '(width . 120))
-
-;; Default auto fill column
-(setq-default fill-column 80)
 
 
 

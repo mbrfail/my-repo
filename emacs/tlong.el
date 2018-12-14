@@ -114,7 +114,7 @@
 ;; (add-to-list 'default-frame-alist '(width . 164))
 
 ;; Default auto fill column
-(setq-default fill-column 80)
+;; (setq-default fill-column 80)
 
 ;;
 ;; 80 columns setting
